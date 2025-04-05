@@ -253,6 +253,7 @@ proxy-groups:
   - BEST-PING
   - FALLBACK
   - DIRECT
+  - VLESS
 - name: GAME
   type: select
   proxies:
@@ -264,6 +265,7 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
+  - VLESS
 - name: SOSMED
   type: select
   proxies:
@@ -275,6 +277,7 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
+  - VLESS
 - name: WA
   type: select
   proxies:
@@ -286,6 +289,7 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
+  - VLESS
 - name: YOUTUBE
   type: select
   proxies:
@@ -297,6 +301,7 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
+  - VLESS
 - name: STREAMING-ID
   type: select
   proxies:
@@ -308,6 +313,7 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
+  - VLESS
 - name: AdsBLOCK
   type: select
   proxies:
