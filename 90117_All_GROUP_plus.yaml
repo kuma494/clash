@@ -145,7 +145,7 @@ proxies:
 - name: 8 🇮🇩 PT Telkom Indonesia WS TLS [nautica]
   server: graph.instragram.com
   port: 443
-  type: vless
+  type: trojan
   uuid: d2d99661-128c-4c97-b8c1-22bdf205fe75
   cipher: auto
   tls: true
@@ -160,7 +160,7 @@ proxies:
 - name: 5 🇮🇩 PT Pusat Media Indonesia WS TLS [nautica]
   server: df.game.naver.com
   port: 443
-  type: vless
+  type: trojan
   uuid: d2d99661-128c-4c97-b8c1-22bdf205fe75
   cipher: auto
   tls: true
@@ -175,7 +175,7 @@ proxies:
 - name: 1 🇮🇩 Amazon.com WS TLS [nautica]
   server: investor.fb.com
   port: 443
-  type: vless
+  type: trojan
   uuid: d2d99661-128c-4c97-b8c1-22bdf205fe75
   cipher: auto
   tls: true
@@ -190,7 +190,7 @@ proxies:
 - name: 18 🇸🇬 Oracle Cloud WS TLS [nautica]
   server: ava.game.naver.com
   port: 443
-  type: vless
+  type: trojan
   uuid: f9c1cb91-0d97-41ea-8cf9-2982c3494812
   cipher: auto
   tls: true
@@ -205,7 +205,7 @@ proxies:
 - name: 9 🇸🇬 Alibaba WS TLS [nautica]
   server: investor.fb.com
   port: 443
-  type: vless
+  type: trojan
   uuid: f9c1cb91-0d97-41ea-8cf9-2982c3494812
   cipher: auto
   tls: true
@@ -220,7 +220,7 @@ proxies:
 - name: 1 🇸🇬 Alibaba WS TLS [nautica]
   server: ava.game.naver.com
   port: 443
-  type: vless
+  type: trojan
   uuid: f9c1cb91-0d97-41ea-8cf9-2982c3494812
   cipher: auto
   tls: true
@@ -253,7 +253,6 @@ proxy-groups:
   - BEST-PING
   - FALLBACK
   - DIRECT
-  - VLESS
 - name: GAME
   type: select
   proxies:
@@ -265,7 +264,6 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
-  - VLESS
 - name: SOSMED
   type: select
   proxies:
@@ -277,7 +275,6 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
-  - VLESS
 - name: WA
   type: select
   proxies:
@@ -289,7 +286,6 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
-  - VLESS
 - name: YOUTUBE
   type: select
   proxies:
@@ -301,7 +297,6 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
-  - VLESS
 - name: STREAMING-ID
   type: select
   proxies:
@@ -313,7 +308,6 @@ proxy-groups:
   - 9 🇸🇬 Alibaba WS TLS [nautica]
   - 1 🇸🇬 Alibaba WS TLS [nautica]
   - DIRECT
-  - VLESS
 - name: AdsBLOCK
   type: select
   proxies:
